@@ -41,7 +41,7 @@ p {
 
 img {
   display: block;
-  width: 100px;
+  max-width: 100px;
   margin: 0 auto;
 }
 
@@ -60,13 +60,17 @@ img {
   border-bottom: 0;
 }
 
-.btn-small {
+.btn {
   text-decoration: none;
   font-size: .875rem;
-  color: #f2f2f2;
-  background-color: #333;
   padding: .5rem;
   border-radius: 5px;
+}
+
+.btn-small {
+  color: #f2f2f2;
+  background-color: #333;
+
 }
 
 .joe {
