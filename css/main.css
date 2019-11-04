@@ -41,6 +41,11 @@ p {
 
 img {
   display: block;
+  width: 100%;
+}
+
+.img {
+  padding: 0;
   width: 100px;
   margin: 0 auto;
 }
@@ -49,7 +54,7 @@ img {
   display: flex;
 }
 
-.columns div {
+.columns .joe, .mama, .ligma, .balls {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
