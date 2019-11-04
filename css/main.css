@@ -19,7 +19,7 @@ h1 {
   font-size: 2rem;
   text-align: center;
   margin: 0;
-  padding: 1.25rem;
+  padding: 1.5rem;
 }
 
 h2 {
@@ -60,7 +60,7 @@ img {
   border-bottom: 0;
 }
 
-.btn {
+.btn, .btn-small {
   text-decoration: none;
   font-size: .875rem;
   color: #f2f2f2;
